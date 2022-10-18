@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <main class="container">
+
+    <section class="content">
+      <div class="row">
+        <div class="col-2">
+          <div class="color-bg"></div>
+        </div>
+
+        <div class="col-1">
+          <div class="title">
+            <h1>Simple booking</h1>
+          </div>
+          <div class="text">
+            <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to
+              discuss arrangements and make bookings. Once the walk has been completed you can rate
+              your walker and book again all through the chat.</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <div class="chat">
+      <div class="chat-bg ">
+        <div class="chat-header">
+          <div class="chat-content-header ">
+            <div class="chat-notch"></div>
+            <div class="col">
+              <!-- <ion-icon name="chevron-back-outline"></ion-icon> -->
+              <i class="bi bi-chevron-left"></i>
+            </div>
+            <div class="col">
+              <img src="images/avatar.jpg" alt="" class="chat-profile-pic">
+            </div>
+            <div class="col" style="width: 140px;">
+              <h4 class="chat-profile-name">
+                Samuel Green
+              </h4>
+              <p class="chat-profile-status">
+                Available to Walk
+              </p>
+            </div>
+            <div class="col">
+              <!-- <ion-icon name="ellipsis-vertical-outline"></ion-icon> -->
+              <i class="bi bi-three-dots-vertical"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-dialog">
+          <div class="chat-dialog-row chat-dialog-row-left">
+            <div class="col chat-left-balloon-text">
+              <p class="chat-left-text">
+                That sounds great. I’d be happy with that.
+              </p>
+            </div>
+            <div class="col chat-left-balloon-text">
+              <p class="chat-left-text">
+                Could you send over some pictures of your dog, please?
+              </p>
+            </div>
+          </div>
+          <div class="chat-dialog-row chat-dialog-row-right">
+            <div class="col chat-right-img">
+              <img class="chat-img" src="images/dog-image-1.jpg" alt="">
+              <img class="chat-img" src="images/dog-image-2.jpg" alt="">
+              <img class="chat-img" src="images/dog-image-3.jpg" alt="" style="margin-right: 8px;">
+              <!-- <p class="chat-right chat-right-balloon-text">
+                That sounds great. I’d be happy with that.
+              </p> -->
+            </div>
+            <div class="col chat-right-balloon chat-right-balloon-text">
+              <p class="chat-right-text">
+                Here are a few pictures. She’s a happy girl!
+              </p>
+            </div>
+            <div class="col chat-right-balloon chat-right-balloon-text-short">
+              <p class="chat-right-text">
+                Can you make it?
+              </p>
+            </div>
+          </div>
+          <div class="chat-dialog-row chat-dialog-row-left">
+            <div class="col chat-left-balloon-text">
+              <p class="chat-left-text">
+                She looks so happy! The time we discussed works. How long shall I take her out for?
+              </p>
+            </div>
+          </div>
+
+          <div class="chat-dialog-row-prices chat-dialog-row-left">
+            <div class="col chat-left-balloon-text-prices">
+              <div class="checkbox"></div>
+              <h4 class="chat-left-text-price">
+                30 minute walk
+              </h4>
+              <span class="chat-left-price">
+                $29
+              </span>
+            </div>
+          </div>
+
+          <div class="chat-dialog-row-prices chat-dialog-row-left">
+            <div class="col chat-left-balloon-text-prices">
+              <div class="checkbox"></div>
+              <h4 class="chat-left-text-price">
+                1 hour walk
+              </h4>
+              <span class="chat-left-price">
+                $49
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-input-send">
+          <div class="chat-input">
+            <div class="col chat-input-text">
+              <p class="chat-message">
+                Type a message…
+              </p>
+              <span class="chat-input-btn">
+                <i class="bi bi-chevron-right chat-btn"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Samuel Green
+  Available to Walk
+
+  That sounds great. I’d be happy with that.
+
+  Could you send over some pictures of your dog, please?
+
+  Here are a few pictures. She’s a happy girl!
+
+  Can you make it?
+
+  She looks so happy! The time we discussed works. How long shall I take her out for?
+
+  30 minute walk
+  $29
+
+  1 hour walk
+  $49
+
+  Type a message…
+
+  
+
+  Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+  discuss arrangements and make bookings. Once the walk has been completed you can rate 
+  your walker and book again all through the chat. -->
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
